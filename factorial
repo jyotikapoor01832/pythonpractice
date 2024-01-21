@@ -1,6 +1,5 @@
 num=int(input("Enter any number:"))
-ans=1
-while num>0:
-    ans=ans*num
-    num=num-1
-print ("Factorial of a given number:",ans)
+factorial=1
+for i in range (num):
+    factorial=(i+1) * factorial
+print ("Factorial of a given number:",factorial)
