@@ -1,0 +1,6 @@
+num=int(input("Enter any number:"))
+ans=1
+while num>0:
+    ans=ans*num
+    num=num-1
+print ("Factorial of a given number:",ans)
