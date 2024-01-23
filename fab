@@ -1,0 +1,7 @@
+num1=1
+num2=0
+for i in range(0,10):
+    i=num1+num2
+    num1=num2
+    num2=i
+    print(i)
