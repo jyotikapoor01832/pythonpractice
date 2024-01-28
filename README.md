@@ -1,1 +1,2 @@
-This is my first repositry
+This is my first repository
+Name=Jyoti
