@@ -1,5 +1,5 @@
 import random
-target=random.randint(1,10)
+target=random.randint(1,100)
                        
 while True:
     Userchoice=input("Guess the target: or quit :")
@@ -14,4 +14,3 @@ while True:
         print("Number is too big.Choose a smaller guess..")
     else:
         print("Number is too small. Choose a bigger guess..")
-    
